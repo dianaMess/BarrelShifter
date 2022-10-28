@@ -1,7 +1,7 @@
 module test_2();
     parameter DATA_SIZE = 16;
-    parameter ROTATION = 1;
-    parameter DIRECTION = 1;
+    parameter ROTATION = 1'b1;
+    parameter DIRECTION = 1'b1;
     reg clk, rst;
     reg [DATA_SIZE - 1:0] data_in;
     reg [$clog2(DATA_SIZE) - 1:0] select;
